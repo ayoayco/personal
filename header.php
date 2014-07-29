@@ -44,8 +44,8 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
       $(document).ready(function(){
         $("#login-form").hide();
         $("#hide").click(function(){
-          $("#login-form").hide(1000);
-          $("#login-link").show(200);
+          $("#login-form").hide(200);
+          $("#login-link").show(1000);
         });
         $("#login-link").click(function(){
           $("#login-form").show(1000);
