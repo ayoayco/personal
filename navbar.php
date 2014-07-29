@@ -35,7 +35,7 @@
       ?>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i>&nbsp;&nbsp;Options</a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#"><i class="fa fa-edit"></i>&nbsp;&nbsp;Change Password</a></li>
               <li><a href="logout.php"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Logout</a></li>
