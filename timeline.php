@@ -41,7 +41,7 @@
 
       <?php } ?>
     
-    <script src="js/timeline.js"></script>
+    <script async src="js/timeline.js"></script>
 </div>
     <div style="height: 30px;"></div>
 </div>
