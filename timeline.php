@@ -1,20 +1,21 @@
 <div class="container">
-  <div class="timeline animated">
-  
-
-    <div id="life-moments-intro" class="col-md-6 col-md-offest-4 text-center">
-      <h1>Life Moments</h1>
+  <div class="row">
+    <div id="life-moments-intro" class="col-md-6 col-md-offset-3 text-center">
+      <h1><i class="fa fa-leaf"></i> Life Moments</h1>
       <p>
-        Haaay... Life... Such a wonderful gift! Seriously.
+        Haaay... Life... Such a wonderful gift!<br />Seriously.
       </p>
+      <?php if(isset($_SESSION['okay'])) echo '<a href="?id=add" class="btn btn-primary">Add a Life Moment</a>'; ?>
     </div>
+  </div>
+  <div class="timeline animated">
 
       <?php
         @include('dbconnect.php');
         $sql = "SELECT * FROM timeline_post SORT ORDER BY id DESC";
         $result = mysql_query($sql) or die("Cannot execute query!");
         while ($rows = mysql_fetch_array($result)){
-      ?>
+      ?>  
 
           <div class="timeline-row">
             <div class="timeline-time">
@@ -27,6 +28,9 @@
             </div>
             <div class="panel timeline-content">
               <div class="panel-body">
+                <?php if(isset($_SESSION['okay'])){?>
+                  <div class="post-actions"><a href="delete.php?id=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a></div>
+                <?php }?>
                 <h2><?php echo $rows['title'];?></h2>
                 <p>
                   <?php echo $rows['body'];?>
@@ -38,6 +42,6 @@
       <?php } ?>
     
     <script src="js/timeline.js"></script>
-    <div style="margin:30px;"></div>
+    <div style="padding:30px;"></div>
 </div>
 </div>

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 29, 2014 at 02:58 PM
+-- Generation Time: Jul 29, 2014 at 05:03 PM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.11
 
@@ -47,13 +47,24 @@ INSERT INTO `options` (`option`, `value`) VALUES
 
 CREATE TABLE IF NOT EXISTS `timeline_post` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `month-day` varchar(7) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `month-day` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `year` varchar(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `icon` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `context` varchar(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `body` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `timeline_post`
+--
+
+INSERT INTO `timeline_post` (`id`, `month-day`, `year`, `icon`, `context`, `title`, `body`) VALUES
+(3, 'Sep 24', '1988', 'user', 'primary', 'Ayo got born!', 'I was born at home. The story is that there was a huge storm during my birthday, and so we may not have been able to make it to the hospital.'),
+(4, 'June', '1992', 'graduation-cap', 'info', 'First day of school!', 'Four-year old Ayo started going to school! So cute. hehe :)'),
+(5, 'June', '1993', 'heart', 'danger', 'Kindergarten (First school crush)', 'Too young!!! Haay. Life.'),
+(6, 'October', '1993', 'music', 'success', 'Learned Ukulele', 'Father taught me my first instrument: Ukulele. :)');
 
 -- --------------------------------------------------------
 
