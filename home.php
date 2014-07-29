@@ -27,8 +27,8 @@
         But I'm fond of Apps built for the Web!<br />
         I sleep a lot, too. Sometimes.
       </p>
-      <!--p>That's it, I guess.</p>
-      <p>Check out <a href="?id=portfolio" id="some-stuff" data-toggle="tooltip" data-placement="top" title="Projects I have completed">some stuff</a> I've done!</p-->
+      <p>That's it, I guess.</p>
+      <p>Check out <a href="?id=portfolio" id="some-stuff" data-toggle="tooltip" data-placement="top" title="Projects I have completed">some stuff</a> I've done!</p>
       <div id="home-btns" class="text-center">
         <h3 data-toggle="tooltip" data-placement="top" title='"Experience points are generally awarded for the completion of quests, overcoming obstacles and opponents, and for successful role-playing."'>Experience Points...</h3>
         <p>

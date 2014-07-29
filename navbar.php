@@ -44,13 +44,13 @@
         </ul>
       <?php } else { ?>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" id="login-link"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
+          <li><a href="#" id="login-link" class="btn" role="button"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
         </ul>
         <form id="login-form" class="navbar-form navbar-right" method="post" action="?id=home">
           <div class="input-group">
-            <span class="input-group-btn"><a href="#" class="btn btn-danger" id="hide">x</a></span>
+            <span class="input-group-btn"><a href="#" class="btn btn-danger" id="hide"><i class="fa fa-times"></i></a></span>
             <input id="password" name="password" type="password" autofocus="autofocus" class="form-control" placeholder="Password..." required />
-            <span class="input-group-btn"><button type="submit" class="btn btn-default">Let's go!</button></span>
+            <span class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</button></span>
           </div>
         </form>
       <?php } ?>
