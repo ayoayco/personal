@@ -45,10 +45,10 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
         $("#login-form").hide();
         $("#hide").click(function(){
           $("#login-form").hide(200);
-          $("#login-link").show(1000);
+          $("#login-link").show(500);
         });
         $("#login-link").click(function(){
-          $("#login-form").show(1000);
+          $("#login-form").show(500);
           $("#login-link").hide(200);
           $("#password").focus();
         });
