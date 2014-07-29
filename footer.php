@@ -4,7 +4,13 @@
     <div id="footer">
       <div class="container">
           <p class="muted credit text-center" style="font-size: x-small;">
-            <?php if(date("Y")!="2014") echo "2014-"; echo date("Y");?> &copy; Ayo Ayco. All Rights Reserved. <?php if($_GET['id']!="login") echo "<a id=\"secret-link\" href=\"?id=login\">Super Secret Sign In</a>";?>
+            <?php if(date("Y")!="2014") echo "2014-"; echo date("Y");?> &copy; Ayo Ayco. All Rights Reserved.
+            <?php
+              if($_GET['id']!="login" && !isset($_SESSION['okay']))
+                echo "<a class=\"secret-link\" href=\"?id=login\">Super Secret Sign In</a>";
+              else if(isset($_SESSION['okay']))
+                echo "<a class=\"secret-link\" href=\"logout.php\">Logout</a>";
+            ?>
           </p>
       </div>
      </div>

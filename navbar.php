@@ -20,9 +20,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-			  <li><a href="http://blog.ayoayco.com">Blog</a></li>
-			  <li><a href="http://ayoayco.blogspot.com">The Absorbing Man</a></li>
-			  <li><a href="http://twitter.com/theabsorbingman">Twitter</a></li>
+    			  <li><a href="http://blog.ayoayco.com">Blog</a></li>
+    			  <li><a href="http://ayoayco.blogspot.com">The Absorbing Man</a></li>
+    			  <li><a href="http://twitter.com/theabsorbingman">Twitter</a></li>
             <!--li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
@@ -36,6 +36,19 @@
           <span class="input-group-btn"><button type="submit" class="btn btn-default">Send!</button></span>
         </div>
       </form-->
+      <?php
+        if(isset($_SESSION['okay'])){
+      ?>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Change Password</a></li>
+              <li><a href="logout.php">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      <?php } ?>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
