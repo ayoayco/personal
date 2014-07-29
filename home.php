@@ -19,7 +19,7 @@
     </div>
 
     <div class="welcome col-md-6 text-center">
-      <a href="?id=about"><img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Click my face! Get more info!" /></a>
+      <a href="?id=timeline"><img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Click my face! Get more info!" /></a>
       <h1>Hi, I'm Ayo.</h1>
       <p>
         <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
