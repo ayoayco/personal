@@ -110,3 +110,13 @@
     #life-moments-intro {
       margin-bottom: 20px;
     }
+
+    .padding-30 {
+      padding: 30px;
+    }
+
+    .post-actions {
+      margin-top: -10px;
+      margin-right: -10px;
+      text-align: right;
+    }
