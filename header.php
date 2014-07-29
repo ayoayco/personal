@@ -20,6 +20,7 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
 	  <link href='http://blog.ayoayco.com/favicon.ico' rel='icon' type='image/x-icon'/>
     <script src="js/pace.min.js"></script>
     <link href="css/pace-barbershop.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
     <title><?php echo $title;?> | Ayo Ayco</title>
 
     <!-- timeline -->
@@ -38,6 +39,21 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
     <![endif]-->
 
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script>
+      $(document).ready(function(){
+        $("#login-form").hide();
+        $("#hide").click(function(){
+          $("#login-form").hide(1000);
+          $("#login-link").show(200);
+        });
+        $("#login-link").click(function(){
+          $("#login-form").show(1000);
+          $("#login-link").hide(200);
+          $("#password").focus();
+        });
+      });
+    </script>
 	  
   </head>
   <body>
