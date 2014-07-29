@@ -15,8 +15,8 @@
     if($password == $row['password']){
       session_start();
       $_SESSION['okay'] = 'okay';
-      header('Location: ?id=timeline');
-    }else header('Location: ?id=home&nope=nope');
+      header('Location: ?id='.$_GET['id']);
+    }else header('Location: ?id='.$_GET['id'].'&nope=nope');
   }
 
 	if(isset($_GET['id'])){
@@ -28,7 +28,8 @@
       case "contact": $title = "Contact"; break;
       case "admin": $title = "Admin"; break;
       case "about": $title = "About"; break;
-      case "timeline": $title = "Timeline"; break;
+      case "timeline": $title = "Life Moments"; break;
+      case "add": $title = "Add a Life Moment"; break;
       case "home": $title = "Home"; break;
     }
   }
@@ -47,6 +48,7 @@
     case "contact": @require("contact.php"); break;
     case "admin": @require("admin.php"); break;
     case "timeline": @require("timeline.php"); break;
+    case "add": @require("add.php"); break;
     case "home": @require("home.php"); break;
   }
 
