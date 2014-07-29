@@ -26,10 +26,9 @@
       case "login": $title = "Log In"; break;
       case "portfolio": $title = "Portfolio"; break;
       case "contact": $title = "Contact"; break;
-      case "admin": $title = "Admin"; break;
       case "about": $title = "About"; break;
       case "timeline": $title = "Life Moments"; break;
-      case "add": $title = "Add a Life Moment"; break;
+      case "add": $title = "Add a Life Moment"; if(!isset($_SESSION['okay'])) header("Location: ?id=home"); break;
       case "home": $title = "Home"; break;
     }
   }
@@ -46,7 +45,6 @@
     case "portfolio": @require("portfolio.php"); break;
     case "about": @require("about.php"); break;
     case "contact": @require("contact.php"); break;
-    case "admin": @require("admin.php"); break;
     case "timeline": @require("timeline.php"); break;
     case "add": @require("add.php"); break;
     case "home": @require("home.php"); break;
