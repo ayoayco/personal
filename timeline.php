@@ -42,6 +42,6 @@
       <?php } ?>
     
     <script src="js/timeline.js"></script>
-    <div style="padding:30px;"></div>
 </div>
+    <div style="height: 30px;"></div>
 </div>
