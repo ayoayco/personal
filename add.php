@@ -9,7 +9,7 @@
 					  <div class="form-group">
 					    <div class="input-group">
 					      <div class="input-group-addon"><i class="fa fa-pencil"></i></div>
-					      <input id="title" name="title" class="form-control" placeholder="Title" maxlength="8" />
+					      <input id="title" name="title" class="form-control" placeholder="Title" maxlength="200" />
 					      <textarea id="body" name="body" class="form-control" rows="10" placeholder="Body..."></textarea>
 					    </div>
 					  </div>
