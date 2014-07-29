@@ -44,7 +44,7 @@
         </ul>
       <?php } else { ?>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" id="login-link" class="btn" role="button"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
+          <li><a href="#" id="login-link" class="btn" role="button" style="height: 50px;"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
         </ul>
         <form id="login-form" class="navbar-form navbar-right" method="post" action="?id=home">
           <div class="input-group">
