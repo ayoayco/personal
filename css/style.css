@@ -1,0 +1,107 @@
+      html,
+      body {
+        height: 100%;
+        background-color: #f8f8ff;
+      }
+
+      #home-container  {
+        max-width: 1000px;
+      } 
+      
+      nav {
+        background-color: #efefef;
+        -webkit-box-shadow: 0 8px 6px -9px #ccc;
+        -moz-box-shadow: 0 8px 6px -9px #ccc;
+        box-shadow: 0 8px 6px -9px #ccc;
+      }
+
+      div.welcome img {
+        border: 3px solid #ccc;
+        width: 180px;
+      }
+      div.welcome {
+        margin-top: 10px;
+      }
+      img#profile-pic {
+        margin: 0 auto;
+      }
+      a.btn {
+        margin-top: 4px
+      }
+      h3:hover {
+        cursor: help;
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #fff;
+        border-top: #ddd 1px solid;
+        color: #888;
+        -webkit-box-shadow: 0 8px 6px 6px #ccc;
+        -moz-box-shadow: 0 8px 6px 6px #ccc;
+        box-shadow: 0 8px 6px 6px #ccc;
+      }
+
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      div.exp {
+        margin-bottom: 20px;
+      }
+
+
+    .form-signin {
+      max-width: 330px;
+      margin: -20px auto 20px;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+      margin-bottom: 10px;
+    }
+    .form-signin .checkbox {
+      font-weight: normal;
+    }
+    .form-signin .form-control {
+      position: relative;
+      height: auto;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 16px;
+    }
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      height: 50px;
+    }
+
+    #home-msg {
+      max-width: 250px;
+      margin: 20px auto;
+    }
+
+    #left-col {
+      background-color: #fff;
+      height: 500px;
+    }
+
+    #right-col {
+      background-color: #fff;
+      height: 500px;
+    }
