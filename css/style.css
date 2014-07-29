@@ -28,7 +28,7 @@
       #home-btns a.btn {
         margin-top: 4px
       }
-      h3:hover {
+      #home-btns h3:hover, #mobile-first-info {
         cursor: help;
       }
 
