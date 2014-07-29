@@ -110,7 +110,6 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/timeline.js"></script>
     <div style="padding:10px;"></div>
 </div>

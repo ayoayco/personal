@@ -29,7 +29,7 @@
       </p>
       <!--p>That's it, I guess.</p>
       <p>Check out <a href="?id=portfolio" id="some-stuff" data-toggle="tooltip" data-placement="top" title="Projects I have completed">some stuff</a> I've done!</p-->
-      <div class="text-center">
+      <div id="home-btns" class="text-center">
         <h3 data-toggle="tooltip" data-placement="top" title='"Experience points are generally awarded for the completion of quests, overcoming obstacles and opponents, and for successful role-playing."'>Experience Points...</h3>
         <p>
         <a href="#" class="btn btn-primary btn-sm" role="button">Web <span class="badge"><?php echo $webexp;?></span></a>
@@ -44,4 +44,7 @@
     <div class="welcome col-md-3 text-center hidden-xs hidden-sm">
     </div>
   </div>
+
+
+
 </div>
