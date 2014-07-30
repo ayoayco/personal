@@ -10,6 +10,9 @@
               if (bottom_of_window > bottom_of_object+200) {
                 return $(this).addClass("active");
               }
+              if (bottom_of_window < bottom_of_object+200) {
+                return $(this).removeClass("active");
+              }
             });
           };
           timelineAnimate();
