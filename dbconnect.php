@@ -3,7 +3,7 @@
 	$host="localhost"; // Host name 
 	$username="root"; // Mysql username 
 	$password=""; // Mysql password 
-	$db_name="ayoayco_db"; // Database name 
+	$db_name="ayoayco"; // Database name 
 
 	// Connect to server and select databse.
 	$con = mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
