@@ -65,8 +65,8 @@
       margin-left: 40px;
       position: relative;
       background-color: #fff;
-      border: solid 1px #eee;
-        box-shadow: 0 1 2px rgba(0, 0, 0, 0.1);
+      border: solid 1px #ddd;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
       color: #333333; }
       .timeline .timeline-row .timeline-content:after {
         content: "";
