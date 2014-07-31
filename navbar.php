@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
         <!--li <?php //if($page == "about") echo "class='active'";?>><a href="?id=about">About</a></li-->
         <li <?php if($page == "timeline") echo "class='active'";?>><a href="?id=timeline">Life Moments</a></li>
-        <li <?php if($page == "portfolio") echo "class='active'";?>><a href="?id=portfolio">Portfolio</a></li>
+        <!--li <?php //if($page == "portfolio") echo "class='active'";?>><a href="?id=portfolio">Portfolio</a></li-->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
