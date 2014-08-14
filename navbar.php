@@ -35,22 +35,22 @@
       ?>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-gear"></i>&nbsp;&nbsp;Options</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i>&nbsp;&nbsp;Options</a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#"><i class="icon-edit"></i>&nbsp;&nbsp;Change Password</a></li>
-              <li><a href="logout.php?id=<?php echo $_GET['id'];?>"><i class="icon-signout"></i>&nbsp;&nbsp;Logout</a></li>
+              <li><a href="#"><i class="fa fa-edit"></i>&nbsp;&nbsp;Change Password</a></li>
+              <li><a href="logout.php?id=<?php echo $_GET['id'];?>"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Logout</a></li>
             </ul>
           </li>
         </ul>
       <?php } else { ?>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" id="login-link" class="btn" role="button" style="height: 50px;"><i class="icon-signin"></i>&nbsp;&nbsp;Log in</a></li>
+          <li><a href="#" id="login-link" class="btn" role="button" style="height: 50px;"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
         </ul>
         <form id="login-form" class="navbar-form navbar-right" method="post" action="?id=<?php echo $_GET['id'];?>">
           <div class="input-group">
-            <span class="input-group-btn"><a href="#" class="btn btn-danger" id="hide"><i class="icon-remove"></i></a></span>
+            <span class="input-group-btn"><a href="#" class="btn btn-danger" id="hide"><i class="fa fa-times"></i></a></span>
             <input id="password" name="password" type="password" autofocus="autofocus" class="form-control" placeholder="Password..." required />
-            <span class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="icon-signin"></i>&nbsp;&nbsp;Log in</button></span>
+            <span class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</button></span>
           </div>
         </form>
       <?php } ?>
