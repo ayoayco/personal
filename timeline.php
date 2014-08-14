@@ -23,7 +23,7 @@
             </div>
             <div class="timeline-icon">
               <div class="bg-<?php echo $rows['context'];?> text-<?php echo $rows['context'];?>">
-                <i class="icon-<?php echo $rows['icon'];?>"></i>
+                <i class="fa fa-<?php echo $rows['icon'];?>"></i>
               </div>
             </div>
             <div class="panel timeline-content">
