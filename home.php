@@ -30,13 +30,13 @@
       <p>That's it, I guess.</p>
       <p>Check out <a href="?id=portfolio" id="some-stuff" data-toggle="tooltip" data-placement="top" title="Projects I have completed">some stuff</a> I've done!</p>
       <div id="home-btns" class="text-center">
-        <h3 data-toggle="tooltip" data-placement="top" title='"Experience points are generally awarded for the completion of quests, overcoming obstacles and opponents, and for successful role-playing."'>Experience Points...</h3>
+        <h3 data-toggle="tooltip" data-placement="top" title='Here are some places in the Web where you can connect with me.'>Connect with me...</h3>
         <p>
-        <a href="#" class="btn btn-primary btn-sm" role="button">Web <span class="badge"><?php echo $webexp;?></span></a>
-        <a href="#" class="btn btn-warning btn-sm" role="button">Visual Arts <span class="badge"><?php echo $visualartsexp;?></span></a>
-        <a href="#" class="btn btn-success btn-sm" role="button">Music <span class="badge"><?php echo $musicexp;?></span></a>
-        <a href="#" class="btn btn-info btn-sm" role="button">Literature <span class="badge"><?php echo $literatureexp;?></span></a>
-        <a href="#" class="btn btn-danger btn-sm" role="button">Love <span class="badge"><?php echo $loveexp;?></span></a>
+        <a href="https://facebook.com/ayosJournal" target="_blank" class="btn btn-primary" role="button"><span class="badge"><i class="icon-facebook"></i></span> Facebook</a>
+        <a href="https://twitter.com/theAbsorbingMan" target="_blank" class="btn btn-info" role="button"><span class="badge"><i class="icon-twitter"></i></span> Twitter</a>
+        <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="icon-github-alt"></i></span> Github</a>
+        <!--a href="#" class="btn btn-success btn-sm" role="button">Music <span class="badge"><?php echo $musicexp;?></span></a>
+        <a href="#" class="btn btn-danger btn-sm" role="button">Love <span class="badge"><?php echo $loveexp;?></span></a-->
         </p>
       </div>
     </div>
