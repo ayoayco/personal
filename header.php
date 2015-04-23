@@ -20,6 +20,7 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
 	  <link href='http://blog.ayoayco.com/favicon.ico' rel='icon' type='image/x-icon'/>
     <script async src="js/pace.min.js"></script>
     <link href="css/pace-bounce.css" rel="stylesheet" />
+    <link rel="text/css" href="css/reset.css"/>
     <script src="js/jquery.min.js"></script>
     <title><?php echo $title;?> | Ayo Ayco</title>
 
