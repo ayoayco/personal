@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="?id=home">AYO AYCO 2.0</a>
+      <a class="navbar-brand" href="?id=home">AYO AYCO</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
