@@ -1,9 +1,9 @@
 <?php
 
 	$host="localhost"; // Host name 
-	$username="ayoaycoc"; // Mysql username 
-	$password="P455w0rd!"; // Mysql password 
-	$db_name="ayoaycoc_ayoayco_db"; // Database name
+	$username="username"; // Mysql username 
+	$password="password"; // Mysql password 
+	$db_name="db name"; // Database name
 
 	// Connect to server and select databse.
 	$con = mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
