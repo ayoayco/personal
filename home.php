@@ -24,10 +24,10 @@
       <p>
         <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
         I don't know any of those.<br />
-        But I'm fond of Apps built for the Web!<br />
-        I sleep a lot, too. Sometimes.
+        But I'm fond of Apps built for the Web!
       </p>
-      <p>Check out <a href="http://blog.ayoayco.com">my blog</a> for more updates.</p>
+      <p>Check out <a href="?id=timeline">my Work Experince</a></p
+      <p>...or <a href="http://blog.ayoayco.com">my blog</a> for more updates.</p>
       <div id="home-btns" class="text-center">
         <h3 data-toggle="tooltip" data-placement="top" title='Here are some places in the Web where you can connect with me.'>Connect with me...</h3>
         <p>
