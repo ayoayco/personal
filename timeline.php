@@ -3,7 +3,7 @@
     <div id="life-moments-intro" class="col-md-6 col-md-offset-3 text-center">
       <h1><i class="fa fa-leaf"></i> Experience and Projects</h1>
       <p>
-        Here lies the professional experience and projects I have gained so far.<br />Also, you can <a href="documents/Ayco_CV.pdf">download my CV</a>. :)
+        Here lies the technical experience and projects I have gained so far.<br />Also, you can <a href="documents/Ayco_CV.pdf">download my CV</a>. :)
       </p>
       <?php if(isset($_SESSION['okay'])) echo '<a href="?id=add" class="btn btn-primary">Add a Project</a>'; ?>
     </div>
