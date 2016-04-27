@@ -7,6 +7,10 @@
       #home-container  {
         width: 100%;
       } 
+
+      h3 {
+        padding-top: 15px !important;
+      }
       
       nav {
         background-color: #efefef;
@@ -15,15 +19,19 @@
         box-shadow: 0 8px 6px -9px #ccc;
       }
 
+      img.speaklogo {
+        margin-top: 15px;
+      }
+
       div.welcome img {
-        border: 3px solid #ccc;
-        width: 180px;
       }
       div.welcome {
         margin-top: 10px;
       }
       img#profile-pic {
         margin: 0 auto;
+        border: 3px solid #ccc;
+        width: 180px;
       }
       #home-btns a.btn {
         margin-top: 4px

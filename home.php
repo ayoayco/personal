@@ -17,13 +17,38 @@
       </p>
       <p>You may check <a href="http://blog.ayoayco.com">my blog</a> for more updates.</p>
       <div id="home-btns" class="text-center">
-        <h3 data-toggle="tooltip" data-placement="top" title='Here are some places in the Web where you can connect with me.'>Connect with me...</h3>
+        <h3 data-toggle="tooltip" data-placement="top" title='Places in the Web where you can connect with me.'>Connect with me...</h3>
         <p>
         <a href="https://facebook.com/ayosJournal" target="_blank" class="btn btn-primary" role="button"><span class="badge"><i class="fa fa-facebook"></i></span> Facebook</a>
         <a href="https://twitter.com/theAbsorbingMan" target="_blank" class="btn btn-info" role="button"><span class="badge"><i class="fa fa-twitter"></i></span> Twitter</a>
         <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
         <!--a href="#" class="btn btn-success btn-sm" role="button">Music <span class="badge"><?php echo $musicexp;?></span></a>
         <a href="#" class="btn btn-danger btn-sm" role="button">Love <span class="badge"><?php echo $loveexp;?></span></a-->
+        </p>
+        <h3 data-toggle="tooltip" data-placement="top" title='Events where I was resource speaker.'>Speaking Engagements</h3>
+        <img class="speaklogo" style="width:100px;" src="assets/images/foss4g2015.png">
+        <p>
+            Free and Open Source<br>
+            Software for Geospatial 2015<br>
+            Web and Framework<br>
+            Sep. 17, 2015<br>
+            The K Seoul Hotel, Seoul, Korea<br>
+        </p>
+        <img class="speaklogo" style="width:100px;" src="assets/images/acrs2015.png">
+        <p>
+          Asian Conference on Remote<br>
+          Sensing 2015<br>
+          WebGIS & Digital Earth<br>
+          Oct. 22, 2015<br>
+          Crowne Plaza Manila Galleria, Oritigas<br>
+        </p>
+        <img class="speaklogo" style="width:100px;" src="assets/images/devcon2015.png">
+        <p>
+          DevCon Summit 2015<br>
+          Web Development Special Track<br>
+          Nov. 14, 2015<br>
+          SMX Convention Center,<br>
+          SM Mall of Asia<br>
         </p>
       </div>
     </div>
