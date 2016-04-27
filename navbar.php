@@ -15,7 +15,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!--li <?php //if($page == "about") echo "class='active'";?>><a href="?id=about">About</a></li-->
-        <li <?php if($page == "timeline") echo "class='active'";?>><a href="?id=timeline">Experience and Projects</a></li>
         <li><a target="_blank" href="http://absorbingdesign.com">Design Studio</a></li>
         <!--li <?php //if($page == "portfolio") echo "class='active'";?>><a href="?id=portfolio">Portfolio</a></li-->
         <!--li class="dropdown">
