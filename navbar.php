@@ -18,15 +18,15 @@
         <li><a target="_blank" href="http://absorbingdesign.com">Design Studio</a></li>
         <!--li <?php //if($page == "portfolio") echo "class='active'";?>><a href="?id=portfolio">Portfolio</a></li-->
         <!--li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
+          <a href="" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
     			  <li><a href="http://blog.ayoayco.com">Blog</a></li>
     			  <li><a href="http://ayoayco.blogspot.com">The Absorbing Man</a></li>
     			  <li><a href="http://twitter.com/theabsorbingman">Twitter</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="">Separated link</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="">One more separated link</a></li>
           </ul>
         </li-->
       </ul>
@@ -35,7 +35,7 @@
       ?>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i>&nbsp;&nbsp;Options</a>
+            <a style="cursor: pointer" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i>&nbsp;&nbsp;Options</a>
             <ul class="dropdown-menu" role="menu">
               <li><a href="#"><i class="fa fa-edit"></i>&nbsp;&nbsp;Change Password</a></li>
               <li><a href="logout.php?id=<?php echo $_GET['id'];?>"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Logout</a></li>
@@ -44,11 +44,11 @@
         </ul>
       <?php } else { ?>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" id="login-link" class="btn" role="button" style="height: 50px;"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
+          <li><a id="login-link" class="btn" role="button" style="height: 50px;"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</a></li>
         </ul>
         <form id="login-form" class="navbar-form navbar-right" method="post" action="?id=<?php echo $_GET['id'];?>">
           <div class="input-group">
-            <span class="input-group-btn"><a href="#" class="btn btn-danger" id="hide"><i class="fa fa-times"></i></a></span>
+            <span class="input-group-btn"><a class="btn btn-danger" id="hide"><i class="fa fa-times"></i></a></span>
             <input id="password" name="password" type="password" autofocus="autofocus" class="form-control" placeholder="Password..." required />
             <span class="input-group-btn"><button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Log in</button></span>
           </div>
