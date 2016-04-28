@@ -6,6 +6,7 @@
 
       #home-container  {
         width: 100%;
+        max-width: 1700px;
       } 
 
       h3 {
