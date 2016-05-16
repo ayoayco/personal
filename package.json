@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ayoayco/personal/issues"
   },
-  "homepage": "https://github.com/ayoayco/personal#readme"
+  "homepage": "https://github.com/ayoayco/personal#readme",
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
 }
