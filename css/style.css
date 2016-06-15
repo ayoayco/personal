@@ -9,8 +9,9 @@
         max-width: 1700px;
       } 
 
-      h3 {
+      h3, h1, .navbar-brand {
         padding-top: 15px !important;
+        font-family: 'Open Sans', sans-serif;
       }
       
       nav {
