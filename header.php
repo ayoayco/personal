@@ -40,7 +40,7 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
     <![endif]-->
 
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script>
       $(document).ready(function(){
         $("#login-form").hide();
