@@ -12,6 +12,7 @@
       h3, h1, .navbar-brand {
         padding-top: 15px !important;
         font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
       }
       
       nav {
