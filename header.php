@@ -55,7 +55,6 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
         });
       });
     </script>
-	  <script src="//load.sumome.com/" data-sumo-site-id="b04ca8cc16ea8df525398ccf73125ce1740d139dafb8abaf1965ae0beb4c1776" async="async"></script>
   </head>
   <body>
 	  <?php
