@@ -1,10 +1,3 @@
-<?php
-  $webexp = 4;
-  $visualartsexp = 3;
-  $musicexp = 7;
-  $literatureexp = 6;
-  $loveexp = ":)";
-?>
 <div id="home-container" class="container" role="main">
   <div class="row">
     <div class="welcome col-md-3 text-center">
