@@ -131,3 +131,12 @@
       margin-right: -10px;
       text-align: right;
     }
+
+    #skills-list li::before {
+      content: "";
+    }
+    #skills-list {
+      text-align: left;
+      margin-left: 100px;
+      list-style: none;
+    }
