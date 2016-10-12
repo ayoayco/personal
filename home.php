@@ -65,7 +65,7 @@
     <div class="welcome col-md-9 text-center">
         <div class="row">
           <div id="life-moments-intro" class="col-md-6 col-md-offset-3 text-center">
-            <h1><i class="fa fa-leaf"></i> Experience and Projects</h1>
+            <h2><i class="fa fa-leaf"></i> Experience and Projects</h2>
             <p>
               Here lies the technical experience and projects I have gained so far.
             </p>
