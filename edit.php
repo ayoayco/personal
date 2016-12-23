@@ -3,7 +3,7 @@
 
     @include('dbconnect.php');
     $sql = "SELECT * FROM `timeline_post` WHERE `id` = '".$projID."'";
-    $sql = mysql_real_escape_string($sql);
+    echo $sql;
     $result = mysql_query($sql) or die("Cannot execute query!");
     $rows = mysql_fetch_array($result);
 ?>
