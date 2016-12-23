@@ -58,7 +58,7 @@
 					  </div>
 					<div class="form-group">
 						      <button type="submit" class="btn btn-primary">Add Moment!</button>
-						      <a href="?id=timeline" class="btn btn-danger">Cancel</a>
+						      <a href="?id=home" class="btn btn-danger">Cancel</a>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 <div id="home-container" class="container" role="main">
   <div class="row">
     <div class="welcome col-md-3 text-center">
-      <a href="?id=timeline"><img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Click my face! Get more info!" /></a>
+      <img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Hello!" />
       <h1>Ayo Ayco</h1>
       <p>
         <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
