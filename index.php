@@ -23,7 +23,6 @@
     $page = $_GET['id'];
     switch($page){
       default: $title = "Home"; $page="home"; break;
-      case "login": $title = "Log In"; break;
       case "portfolio": $title = "Portfolio"; break;
       case "contact": $title = "Contact"; break;
       case "about": $title = "About"; break;
@@ -41,7 +40,6 @@
 
   switch($page){
     default: @require("home.php"); break;
-    case "login": @require("login.php"); break;
     case "portfolio": @require("portfolio.php"); break;
     case "about": @require("about.php"); break;
     case "contact": @require("contact.php"); break;
