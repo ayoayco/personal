@@ -12,7 +12,7 @@
 	if($password == $row['password']){
 		session_start();
 		$_SESSION['okay'] = 'okay';
-		header('Location: ?id=timeline');
+		header('Location: ?id=home');
 	}else{
 		$sql = "SELECT value FROM `options` WHERE `option` LIKE 'url'";
 		$result = mysql_query($sql) or die("Cannot execute query!");
