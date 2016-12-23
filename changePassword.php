@@ -2,7 +2,7 @@
 		<div class="row text-center" style="margin-bottom: 20px;">
 			<h1><i class="fa fa-pencil"></i> Change your Password</h1>
 		</div>
-		<form method='post' action='addcontroller.php' class="form-horizontal" role="form">
+		<form method='post' action='changecontroller.php' class="form-horizontal" role="form">
 			<div class="row">
 				<div class="col-md-4  col-md-offset-4">
 					  <div class="form-group">
