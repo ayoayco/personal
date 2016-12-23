@@ -7,6 +7,8 @@
     $rows = mysql_fetch_array($result);
 ?>
 
+
+
 <div class="container">
 		<div class="row text-center" style="margin-bottom: 20px;">
 			<h1><i class="fa fa-pencil"></i> Edit a Project</h1>
