@@ -51,7 +51,7 @@
           <div id="life-moments-intro" class="col-md-6 col-md-offset-3 text-center">
             <h2><i class="fa fa-leaf"></i> Experience and Projects</h2>
             <p>
-              Achievement unlocked!
+              Achievements unlocked!
             </p>
             <?php if(isset($_SESSION['okay'])) echo '<a href="?id=add" class="btn btn-primary">Add a Project</a>'; ?>
           </div>
