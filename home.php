@@ -61,6 +61,7 @@
             <?php
               @include('dbconnect.php');
               $sql = "SELECT * FROM timeline_post SORT ORDER BY id DESC";
+              $sql = mysql_real_escape_string($sql);
               $result = mysql_query($sql) or die("Cannot execute query!");
               while ($rows = mysql_fetch_array($result)){
             ?>  
