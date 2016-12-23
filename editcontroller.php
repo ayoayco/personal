@@ -19,7 +19,7 @@ if($monthday == ""){
 @include('dbconnect.php');
 $sql="UPDATE `timeline_post` SET `month-day` = '".$monthday."', `year` = '".$year."', `icon`= '".$icon."', `context` = '".$context."', `title` = '".$title."', `body` = '".$body."' WHERE `id` = '".$projID."'";
 
-echo "<script>console.log('Query: ".$sql."')</script>";
+echo $sql;
 
 $result = mysql_query($sql) or die ("Cannot add Life Moment!");
 
