@@ -50,6 +50,7 @@
         height: 100%;
         /* Negative indent footer by it's height */
         margin: 0 auto -60px;
+        background: url('../assets/images/bg4.png');
       }
 
       /* Set the fixed height of the footer here */
