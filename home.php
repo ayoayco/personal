@@ -77,7 +77,10 @@
                   <div class="panel timeline-content">
                     <div class="panel-body">
                       <?php if(isset($_SESSION['okay'])){?>
-                        <div class="post-actions"><a href="delete.php?id=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a></div>
+                        <div class="post-actions">
+                          <a href="delete.php?projID=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a>&nbsp;
+                          <a href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
+                        </div>
                       <?php }?>
                       <h2><?php echo $rows['title'];?></h2>
                       <p>

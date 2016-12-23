@@ -28,6 +28,7 @@
       case "about": $title = "About"; break;
       case "timeline": $title = "Life Moments"; break;
       case "add": $title = "Add a Life Moment"; if(!isset($_SESSION['okay'])) header("Location: ?id=home"); break;
+      case "edit": $title = "Edit a Life Moment"; if(!isset($_SESSION['okay'])) header("Location: ?id=home"); break;
       case "home": $title = "Home"; break;
     }
   }
@@ -45,6 +46,7 @@
     case "contact": @require("contact.php"); break;
     case "timeline": @require("timeline.php"); break;
     case "add": @require("add.php"); break;
+    case "edit": @require("edit.php"); break;
     case "home": @require("home.php"); break;
   }
 
