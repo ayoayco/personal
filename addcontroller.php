@@ -8,6 +8,10 @@ $context = $_POST['context'];
 $title = $_POST['title'];
 $body = $_POST['body'];
 
+if($monthday == ""){
+    $monthday = "Sometime in";
+}
+
 @include('dbconnect.php');
 $sql="INSERT INTO `timeline_post`(`month-day`, `year`, `icon`, `context`, `title`, `body`) VALUES ('".$monthday."', '".$year."', '".$icon."', '".$context."', '".$title."', '".$body."')";
 $result = mysql_query($sql) or die ("Cannot add Life Moment!");
