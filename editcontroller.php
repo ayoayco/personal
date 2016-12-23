@@ -16,7 +16,7 @@ if($monthday == ""){
 //echo $projID;
 
 @include('dbconnect.php');
-$sql="UPDATE `timeline_post` SET `month-day` = '".$monthday."', `year` = '".$year."', `icon`= '".$icon."', `context` = '".$context."', `title` = '".$title."', `body` = '".$body."' WHERE `id` = '".$projID."'";
+$sql="UPDATE `timeline_post` SET `month-day` = '".$monthday."', `year` = '".$year."', `icon`= '".$icon."', `context` = '".$context."', `title` = '".mysql_real_escape_string($title)."', `body` = '".mysql_real_escape_string($body)."' WHERE `id` = '".$projID."'";
 echo $sql."<br />";
 
 /*$result = mysql_query($sql) or die ("Cannot edit Life Moment!");
