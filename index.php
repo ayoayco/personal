@@ -9,6 +9,7 @@
     $password = md5($_POST['password']);
 
     $sql = "SELECT password FROM user";
+    $sql = mysql_real_escape_string($sql);
     $result = mysql_query($sql) or die("Cannot execute query!");
     $row = mysql_fetch_array($result);
 
