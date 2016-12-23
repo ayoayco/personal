@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="welcome col-md-9 text-center">
+    <div class="welcome col-md-9">
         <div class="row">
           <div id="life-moments-intro" class="col-md-6 col-md-offset-3 text-center">
             <h2><i class="fa fa-leaf"></i> Experience and Projects</h2>
@@ -82,7 +82,7 @@
                           <a href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
                         </div>
                       <?php }?>
-                      <h2><?php echo $rows['title'];?></h2>
+                      <h2 class="text-center"><?php echo $rows['title'];?></h2>
                       <p>
                         <?php echo $rows['body'];?>
                       </p>
