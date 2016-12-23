@@ -38,7 +38,7 @@
           <li class="dropdown">
             <a style="cursor: pointer" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i>&nbsp;&nbsp;Options</a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#"><i class="fa fa-edit"></i>&nbsp;&nbsp;Change Password</a></li>
+              <li><a href="?id=changepw"><i class="fa fa-edit"></i>&nbsp;&nbsp;Change Password</a></li>
               <li><a href="logout.php?id=<?php echo $_GET['id'];?>"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Logout</a></li>
             </ul>
           </li>
