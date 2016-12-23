@@ -13,7 +13,12 @@
 		session_start();
 		$_SESSION['okay'] = 'okay';
 		header('Location: ?id=timeline');
-	}else header('Location: ?id=home&nope=nope');
+	}else{
+		$sql = "SELECT value FROM `options` WHERE `option` LIKE 'url'";
+		$result = mysql_query($sql) or die("Cannot execute query!");
+		$row = mysql_fetch_array($result);
+		header('Location: '.$row['value']);
+	}
 
 	echo "error";
 ?>

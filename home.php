@@ -9,27 +9,11 @@
         But I'm fond of Apps built for the Web!
       </p>
       <div id="home-btns" class="text-center">
-        <!--div>
-          <h3 data-toggle="tooltip" data-placement="top" title="Some technologies I've been using for Web Development.">Mad Skillz</h3>
-          <ul id="skills-list">
-            <li><span class="glyphicon glyphicon-ok initialism"></span> HTML 5</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> Javascript</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> CSS 3</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> Angular</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> Typescript</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> Node</li>
-            <li><span class="glyphicon glyphicon-ok initialism"></span> Jasmine</li>
-          </ul>
-
-        </div-->
         <div>
           <h3 data-toggle="tooltip" data-placement="top" title='Places in the Web where you can connect with me.'>Connect with me...</h3>
           <p>
-          <!--a href="https://facebook.com/ayosJournal" target="_blank" class="btn btn-primary" role="button"><span class="badge"><i class="fa fa-facebook"></i></span> Facebook</a-->
           <a href="https://twitter.com/theAbsorbingMan" target="_blank" class="btn btn-info" role="button"><span class="badge"><i class="fa fa-twitter"></i></span> Twitter</a>
           <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
-          <!--a href="#" class="btn btn-success btn-sm" role="button">Music <span class="badge"><?php echo $musicexp;?></span></a>
-          <a href="#" class="btn btn-danger btn-sm" role="button">Love <span class="badge"><?php echo $loveexp;?></span></a-->
           </p>
         </div>
         <div>
