@@ -1,19 +1,19 @@
 
 <?php
 
-$monthday = mysql_real_escape_string($_POST['month-day']);
-$year = mysql_real_escape_string($_POST['year']);
-$icon = mysql_real_escape_string($_POST['icon']);
-$context = mysql_real_escape_string($_POST['context']);
-$title = mysql_real_escape_string($_POST['title']);
-$body = mysql_real_escape_string($_POST['body']);
+$monthday = $_POST['month-day'];
+$year = $_POST['year'];
+$icon = $_POST['icon'];
+$context = $_POST['context'];
+$title = $_POST['title'];
+$body = $_POST['body'];
 
 if($monthday == ""){
     $monthday = "Sometime in";
 }
 
 @include('dbconnect.php');
-$sql="INSERT INTO `timeline_post`(`month-day`, `year`, `icon`, `context`, `title`, `body`) VALUES ('".$monthday."', '".$year."', '".$icon."', '".$context."', '".$title."', '".$body."')";
+$sql="INSERT INTO `timeline_post`(`month-day`, `year`, `icon`, `context`, `title`, `body`) VALUES ('".$monthday."', '".$year."', '".$icon."', '".$context."', '".mysql_real_escape_string($title)."', '".mysql_real_escape_string($body)."')";
 $result = mysql_query($sql) or die ("Cannot add Life Moment!");
 
 $sql2 = "SELECT * FROM `options` WHERE `option` = 'url'";
