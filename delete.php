@@ -4,9 +4,7 @@ $projID = $_GET['projID'];
 
 @include('dbconnect.php');
 $sql = "DELETE FROM `timeline_post` WHERE `id` = ".$projID;
-$sql = mysql_real_escape_string($sql);
 $sql2 = "SELECT * FROM `options` WHERE `option` = 'url'";
-$sql2 = mysql_real_escape_string($sql2);
 $result2 = mysql_query($sql2) or die ("Cannot retrieve url!");
 $row = mysql_fetch_array($result2);
 if($request = mysql_query($sql))
