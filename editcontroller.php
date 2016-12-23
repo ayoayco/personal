@@ -17,7 +17,7 @@ if($monthday == ""){
 //echo $projID;
 
 @include('dbconnect.php');
-$sql="UPDATE `timeline_post` SET `month-day` = '".$monthday."', `year` = '".$year."', `icon`= '".$icon."', `context` = '".$context."', `title` = '".$title."', `body` = '".$body."' WHERE `id` = '".$projID."'";
+$sql="UPDATE `timeline_post` SET `month-day` = \"".$monthday."\", `year` = \"".$year."\", `icon`= \"".$icon."\", `context` = \"".$context."\", `title` = \"".$title."\", `body` = \"".$body."\" WHERE `id` = \"".$projID."\"";
 $sql = mysql_real_escape_string($sql);
 echo $sql;
 
