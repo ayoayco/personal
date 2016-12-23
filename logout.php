@@ -6,5 +6,5 @@
 	$sql = "SELECT value FROM `options` WHERE `option` LIKE 'url'";
 	$result = mysql_query($sql) or die("Cannot execute query!");
 	$row = mysql_fetch_array($result);
-	header('Location: '.$row['value'].'?id='.$_GET['id']);
+	header('Location: '.$row['value']);
 ?>
