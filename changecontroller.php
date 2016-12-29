@@ -19,7 +19,7 @@ if($row['password'] == $oldpw){
     $row = mysql_fetch_array($result2);
     header("Location: ".$row['value']."?id=home");
 }else{
-    header('Location: ?id=home&wrongoldpw=wrongoldpw');
+    header('Location: .?id=home&wrongoldpw=wrongoldpw');
 }
 
 ?>
