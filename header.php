@@ -64,13 +64,3 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
     <?php
         @require("navbar.php");
     ?>      
-    <!--?php
-    if(isset($_GET['id'])){
-      $page = $_GET['id'];
-      switch($page){
-        default:;break;
-        case "login": @require("navbar.php");;break;
-        case "portfolio": @require("navbar.php");;break;
-      }
-    }
-    ?-->
