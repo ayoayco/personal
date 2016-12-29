@@ -32,6 +32,10 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
+    <!-- my files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/index.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,7 +43,6 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script>
       $(document).ready(function(){
