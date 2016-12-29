@@ -78,8 +78,8 @@
                     <div class="panel-body">
                       <?php if(isset($_SESSION['okay'])){?>
                         <div class="post-actions">
-                          <a href="delete.php?projID=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a>&nbsp;
-                          <a href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
+                          <a data-toggle="tooltip" data-placement="top" title='Delete' href="delete.php?projID=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a>&nbsp;
+                          <a data-toggle="tooltip" data-placement="top" title='Edit' href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
                         </div>
                       <?php }?>
                       <h2 class="text-center"><?php echo $rows['title'];?></h2>

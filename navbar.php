@@ -19,7 +19,7 @@
         <li><a target="_blank" href="http://absorbingdesign.com">Design Studio</a></li>
         <?php
         if(isset($_SESSION['okay'])){
-        ?><li id="addNavItemButton"><a href="#"><i class="fa fa-plus"></i></a></li>
+        ?><li id="addNavItemButton" data-toggle="tooltip" data-placement="right" title='Add link'><a href="#"><i class="fa fa-plus"></i></a></li>
         <?php } ?>
         <!--li class="dropdown">
           <a href="" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
