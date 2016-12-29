@@ -8,21 +8,21 @@
 					  <div class="form-group">
 					    <div class="input-group">
 					      <div class="input-group-addon"><i class="fa fa-arrow-right"></i></div>
-					      <input type="password" id="month-day" name="month-day" class="form-control" placeholder="Old password" maxlength="15" />
+					      <input type="password" id="oldpw" name="oldpw" class="form-control" placeholder="Old password" maxlength="15" />
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <div class="input-group">
 					      <div class="input-group-addon"><i class="fa fa-arrow-right"></i></div>
-					      <input type="password" id="icon" name="icon" class="form-control" placeholder="New password" maxlength="30" />
+					      <input onKeyUP="checkPw()" type="password" id="newpw" name="newpw" class="form-control" placeholder="New password" maxlength="30" />
 					    </div>
 					  </div>
 
 					  <div class="form-group">
 					    <div class="input-group">
 					      <div class="input-group-addon"><i class="fa fa-arrow-right"></i></div>
-					      <input type="password" id="icon" name="icon" class="form-control" placeholder="Confirm new password" maxlength="30" />
+					      <input onKeyUP="checkPw2()" type="password" id="newpw2" name="newpw2" class="form-control" placeholder="Confirm new password" maxlength="30" />
 					    </div>
 					  </div>
 
