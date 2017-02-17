@@ -18,6 +18,13 @@
         </div>
         <div>
           <h3 data-toggle="tooltip" data-placement="top" title='Events where I was resource speaker.'>Speaking Engagements</h3>
+          <img class="speaklogo" style="width:100px;" src="assets/images/ics_logo.jpg">
+          <p>
+              ICS Week 2017<br>
+              Web and GIS for Disaster Risk Reduction and Management<br>
+              Feb. 16, 2017<br>
+              ICS Lecture Hall 3, UPLB, Los Ba&ntilde;os<br>
+          </p>
           <img class="speaklogo" style="width:100px;" src="assets/images/foss4g2015.png">
           <p>
               Free and Open Source<br>
