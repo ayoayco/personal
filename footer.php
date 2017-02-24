@@ -32,5 +32,7 @@ target="_blank"><img class="statcounter"
 src="http://c.statcounter.com/10684699/0/1329352e/1/"
 alt="shopify analytics tool"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
+
+<script src="js/main.js"></script>
   </body>
 </html>
