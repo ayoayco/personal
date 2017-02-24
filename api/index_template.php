@@ -43,14 +43,8 @@ switch ($method) {
 }
  
 // excecute SQL statement
-$result = mysqli_query($link,$sql);
- 
-// die if SQL statement failed
-if (!$result) {
-  http_response_code(404);
-  die(mysqli_error());
-}
- 
+$result = mysqli_query($link,$sql) or die(mysqli_error());
+
 // print results, insert id or affected row count
 if ($method == 'GET') {
   if (!$key) echo '[';
