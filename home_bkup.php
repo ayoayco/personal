@@ -64,6 +64,40 @@
           </div>
         </div>
         <div class="timeline animated">
+
+            <?php
+              @include('dbconnect.php');
+              $sql = "SELECT * FROM timeline_post SORT ORDER BY id DESC";
+              $result = mysql_query($sql) or die("Cannot execute query!");
+              while ($rows = mysql_fetch_array($result)){
+            ?>  
+
+                <div class="timeline-row">
+                  <div class="timeline-time">
+                    <small><?php echo $rows['month-day'];?></small><?php echo $rows['year'];?>
+                  </div>
+                  <div class="timeline-icon">
+                    <div class="bg-<?php echo $rows['context'];?> text-<?php echo $rows['context'];?>">
+                      <i class="fa fa-<?php echo $rows['icon'];?>"></i>
+                    </div>
+                  </div>
+                  <div class="panel timeline-content">
+                    <div class="panel-body">
+                      <?php if(isset($_SESSION['okay'])){?>
+                        <div class="post-actions">
+                          <a data-toggle="tooltip" data-placement="top" title='Delete' href="delete.php?projID=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a>&nbsp;
+                          <a data-toggle="tooltip" data-placement="top" title='Edit' href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
+                        </div>
+                      <?php }?>
+                      <h2 class="text-center"><?php echo $rows['title'];?></h2>
+                      <p>
+                        <?php echo $rows['body'];?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+            <?php } ?>
         </div>
         <div style="height: 30px;">
         </div>
