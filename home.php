@@ -63,8 +63,7 @@
             <?php if(isset($_SESSION['okay'])) echo '<a href="?id=add" class="btn btn-primary">Add a Project</a>'; ?>
           </div>
         </div>
-        <div class="timeline animated">
-        </div>
+        <div class="timeline animated"></div>
         <div style="height: 30px;">
         </div>
       <script src="js/timeline.js"></script>

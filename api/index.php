@@ -1,5 +1,7 @@
 <?php
  
+@include('../dbconnect.php');
+
 // get the HTTP method, path and body of the request
 $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['PATH_INFO'],'/'));
@@ -9,7 +11,6 @@ if($input == null){
 }
  
 // connect to the mysql database
-$link = mysqli_connect('localhost', 'user', 'pass', 'dbname');
 mysqli_set_charset($link,'utf8');
  
 // retrieve the table and key from the path
