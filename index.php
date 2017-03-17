@@ -41,7 +41,7 @@
   @require("header.php");
 
   switch($page){
-    default: @require("home.html"); break;
+    default: @require("home.php"); break;
     case "portfolio": @require("portfolio.php"); break;
     case "about": @require("about.php"); break;
     case "contact": @require("contact.php"); break;
@@ -49,7 +49,7 @@
     case "editurl": @require("editurl.php"); break;
     case "add": @require("add.php"); break;
     case "edit": @require("edit.php"); break;
-    case "home": @require("home.html"); break;
+    case "home": @require("home.php"); break;
   }
 
   @require("footer.php");
