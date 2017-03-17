@@ -26,7 +26,7 @@ I sleep a lot, too. Sometimes.' property='og:description'/>
 
     <!-- timeline -->
     <link href="css/font-awesome.min.css" media="all" rel="stylesheet">
-    <link href="css/style2.css" media="all" rel="stylesheet">
+    <link href="css/timeline.css" media="all" rel="stylesheet">
     <script async src="js/modernizr.min.js"></script>
 
     <!-- Bootstrap -->
