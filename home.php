@@ -4,8 +4,10 @@
       <img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Hello!" />
       <h1>Ayo Ayco</h1>
       <p>
-        <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
-        I don't know any of those.<br />
+        <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu!
+        <span class="glyphicon glyphicon-ok initialism"></span> Parkour!
+        <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
+        I can't do any of those,<br />
         But I'm fond of Apps built for the Web!
       </p>
       <div id="home-btns" class="text-center">
