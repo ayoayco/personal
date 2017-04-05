@@ -3,6 +3,7 @@
     <div class="welcome col-md-3 text-center">
       <img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Hello!" />
       <h1>Ayo Ayco</h1>
+      <h3>Full-Stack Web GIS Developer</h3>
       <p>
         <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
         I don't know any of those.<br />
