@@ -3,17 +3,18 @@
     <div class="welcome col-md-3 text-center">
       <img id="profile-pic" src="assets/images/hmm2-2.jpg" class="img-responsive img-circle" data-toggle="tooltip" data-placement="right" title="Hello!" />
       <h1>Ayo Ayco</h1>
-      <h4>I &#10084; Full-Stack Javascript</h4>
       <p>
-        <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu!
-        <span class="glyphicon glyphicon-ok initialism"></span> Parkour!
-        <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
-        I can't do any of those,<br />
+        <span class="glyphicon glyphicon-ok initialism"></span> Kung Fu! <span class="glyphicon glyphicon-ok initialism"></span> Parkour! <span class="glyphicon glyphicon-ok initialism"></span> Dancing!<br />
+        I don't know any of those.<br />
         But I'm fond of Apps built for the Web!
       </p>
       <div id="home-btns" class="text-center">
         <div>
+          <h3 data-toggle="tooltip" data-placement="top" title='Places in the Web where you can connect with me.'>Connect with me...</h3>
+          <p>
+          <a href="https://twitter.com/theAbsorbingMan" target="_blank" class="btn btn-info" role="button"><span class="badge"><i class="fa fa-twitter"></i></span> Twitter</a>
           <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
+          </p>
         </div>
         <div>
           <h3 data-toggle="tooltip" data-placement="top" title='Events where I was resource speaker.'>Speaking Engagements</h3>
@@ -62,42 +63,7 @@
             <?php if(isset($_SESSION['okay'])) echo '<a href="?id=add" class="btn btn-primary">Add a Project</a>'; ?>
           </div>
         </div>
-        <div class="timeline animated">
-
-            <?php
-              @include('dbconnect.php');
-              $sql = "SELECT * FROM timeline_post SORT ORDER BY id DESC";
-              $result = mysql_query($sql) or die("Cannot execute query!");
-              while ($rows = mysql_fetch_array($result)){
-            ?>  
-
-                <div class="timeline-row">
-                  <div class="timeline-time">
-                    <small><?php echo $rows['month-day'];?></small><?php echo $rows['year'];?>
-                  </div>
-                  <div class="timeline-icon">
-                    <div class="bg-<?php echo $rows['context'];?> text-<?php echo $rows['context'];?>">
-                      <i class="fa fa-<?php echo $rows['icon'];?>"></i>
-                    </div>
-                  </div>
-                  <div class="panel timeline-content">
-                    <div class="panel-body">
-                      <?php if(isset($_SESSION['okay'])){?>
-                        <div class="post-actions">
-                          <a data-toggle="tooltip" data-placement="top" title='Delete' href="delete.php?projID=<?php echo $rows['id']?>" class="text-danger"><i class="fa fa-times"></i></a>&nbsp;
-                          <a data-toggle="tooltip" data-placement="top" title='Edit' href="?id=edit&projID=<?php echo $rows['id']?>" class="text-success"><i class="fa fa-pencil"></i></a>
-                        </div>
-                      <?php }?>
-                      <h2 class="text-center"><?php echo $rows['title'];?></h2>
-                      <p>
-                        <?php echo $rows['body'];?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-            <?php } ?>
-        </div>
+        <div class="timeline animated"></div>
         <div style="height: 30px;">
         </div>
       <script src="js/timeline.js"></script>
