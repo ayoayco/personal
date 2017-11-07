@@ -15,6 +15,7 @@
         <div>
           <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
         </div>
+    <?php require('skills.php'); ?>
         <div>
           <h3 data-toggle="tooltip" data-placement="top" title='Events where I was resource speaker.'>Speaking Engagements</h3>
           <img class="speaklogo" style="width:100px;" src="assets/images/ics_logo.jpg">
