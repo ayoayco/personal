@@ -16,6 +16,7 @@
       <ul class="nav navbar-nav">
         <!--li <?php //if($page == "about") echo "class='active'";?>><a href="?id=about">About</a></li-->
         <li><a targe="_blank" href="http://blog.ayoayco.com">Blog</a></li>
+        <li><a targe="_blank" href="http://noisetrade.com/ayoayco">Music</a></li>
         <li><a target="_blank" href="http://absorbingdesign.com">Design Studio</a></li>
         <?php
         if(isset($_SESSION['okay'])){
