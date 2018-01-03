@@ -13,7 +13,8 @@
       </p>
       <div id="home-btns" class="text-center">
         <div>
-          <a href="https://github.com/ayoayco" target="_blank" class="btn btn-success" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
+          <a href="https://github.com/ayoayco" target="_blank" class="btn btn-default" role="button"><span class="badge"><i class="fa fa-github-alt"></i></span> Github</a>
+          <a href="https://www.linkedin.com/in/ayoayco/" target="_blank" class="btn btn-primary" role="button"><span class="badge"><i class="fa fa-linkedin"></i></span> LinkedIn</a>
         </div>
     <?php require('skills.php'); ?>
     <?php require('speaking.php'); ?>
