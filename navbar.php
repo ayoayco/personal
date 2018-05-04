@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!--li <?php //if($page == "about") echo "class='active'";?>><a href="?id=about">About</a></li-->
-        <li><a targe="_blank" href="http://blog.ayoayco.com" data-toggle="tooltip" data-placement="bottom" title="Personal Blog">Blog</a></li>
+        <!-- <li><a targe="_blank" href="http://blog.ayoayco.com" data-toggle="tooltip" data-placement="bottom" title="Personal Blog">Blog</a></li> -->
         <li><a targe="_blank" href="http://fullhacker.com" data-toggle="tooltip" data-placement="bottom" title="Tech Blog">Full Hacker</a></li>
         <li><a targe="_blank" href="http://noisetrade.com/ayoayco">Free Music</a></li>
         <li><a target="_blank" href="http://absorbingdesign.com">Design Studio</a></li>
